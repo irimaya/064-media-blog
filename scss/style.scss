@@ -1,0 +1,87 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Font
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Montserrat', sans-serif;;
+
+// Colors
+$main-color: #ffcd2b;
+$secondary-color: #1b252d;
+$gray1-color: #4d4d4d;
+$gray2-color: #707070;
+$gray3-color: #9b9b9a;
+
+// Import
+@import 'mobile';
+
+// START HERE
+// General Styling
+html,
+body {
+  font-family: $font-body;
+  background: $gray1-color;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $main-color;
+}
+
+hr {
+  background: $gray3-color;
+}
+
+// Subnav
+.subnav {
+  float: right;
+  ul {
+    list-style: none;
+    li {
+      float: left;
+      display: block;
+      padding: 5px;
+      text-align: center;
+    }
+  } //End ul
+} //End .subnav
+
+// Logo
+.logo {
+  img {
+    height: 120px;
+  }
+}
+
+// Showcase
+#showcase {
+  .col-lg-6,
+  .col-md-6 {
+    // padding-right: 0 !important;
+    // padding-left: 0 !important;
+    .col {
+      // padding-right: 0 !important;
+      // padding-left: 0 !important;
+    }
+  }
+  .box-1 {
+    img {
+      height: 340px;
+      // width: 530px;
+    }
+  }
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5
+   {
+     img {
+       height: 170px;
+     }
+  }
+} //End #showcase
